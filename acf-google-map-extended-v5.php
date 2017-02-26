@@ -161,9 +161,7 @@ class acf_field_google_map_extended_v5 extends acf_field_google_map_extended {
       'name'      => 'center_lng',
       'prepend'    => 'lng',
       'placeholder'  => $this->defaults['center_lng'],
-      'wrapper'    => array(
-        'data-append' => 'center_lat'
-      )
+      '_append' => 'center_lat'
     ));
     
     
